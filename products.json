@@ -1,0 +1,47 @@
+[
+	{
+		"id": "1",
+		"name": "English Product 1",
+		"lang": "english"
+	},
+	{
+		"id": "2",
+		"name": "English Product 2",
+		"lang": "english"
+	},
+	{
+		"id": "3",
+		"name": "English Product 3",
+		"lang": "english"
+	},
+	{
+		"id": "1",
+		"name": "hindi Product 1",
+		"lang": "hindi"
+	},
+	{
+		"id": "2",
+		"name": "hindi Product 2",
+		"lang": "hindi"
+	},
+	{
+		"id": "3",
+		"name": "hindi Product 3",
+		"lang": "hindi"
+	},
+	{
+		"id": "1",
+		"name": "gujarati Product 1",
+		"lang": "gujarati"
+	},
+	{
+		"id": "2",
+		"name": "gujarati Product 2",
+		"lang": "gujarati"
+	},
+	{
+		"id": "3",
+		"name": "gujarati Product 3",
+		"lang": "gujarati"
+	}
+]

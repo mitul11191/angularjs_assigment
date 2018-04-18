@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="angDemo">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Angular Assignment</title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    <!---BootStrap CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+
+</head>
+
+<body ng-controller="mainCtrl">
+
+    <!-- common Header -->
+    <page-header></page-header>
+
+    <div id="wrapper">
+        <ng-view></ng-view>
+    </div>
+
+    <!-- minify all js -->
+    <script src="dist/scripts/scripts.min.js"></script>
+
+    <script src="app/modules/products/controllers/productCtrl.js"></script>
+    <script src="app/modules/products/product.factory.js"></script>
+
+</body>
+
+</html>
